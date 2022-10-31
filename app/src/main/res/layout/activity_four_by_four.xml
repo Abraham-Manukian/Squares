@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".four_by_four"
+    android:background="@drawable/frame_1__1_">
+
+        <Button
+            android:id="@+id/start_4"
+            android:layout_width="237dp"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/buttonStart"
+            android:onClick="start_4"
+            android:text="Start"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/score_4">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_1" />
+
+            <Button
+                android:id="@+id/button4_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_2" />
+
+            <Button
+                android:id="@+id/button4_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_3" />
+
+            <Button
+                android:id="@+id/button4_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="164dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4_5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_5" />
+
+            <Button
+                android:id="@+id/button4_6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_6" />
+
+            <Button
+                android:id="@+id/button4_7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_7" />
+
+            <Button
+                android:id="@+id/button4_8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4_9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_9" />
+
+            <Button
+                android:id="@+id/button4_10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_10" />
+
+            <Button
+                android:id="@+id/button4_11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_11" />
+
+            <Button
+                android:id="@+id/button4_12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_12" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4_13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_13" />
+            <Button
+                android:id="@+id/button4_14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_14" />
+            <Button
+                android:id="@+id/button4_15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_15" />
+            <Button
+                android:id="@+id/button4_16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:backgroundTint="@color/button"
+                android:onClick="click4_16" />
+        </TableRow>
+    </TableLayout>
+        <TextView
+            android:id="@+id/score_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="0 ходов"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="413dp"
+        android:layout_height="64dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+        <Button
+            android:id="@+id/to3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="click_to4"
+            android:text="Back to lavel" />
+    </LinearLayout>
+-->
+</androidx.constraintlayout.widget.ConstraintLayout>
