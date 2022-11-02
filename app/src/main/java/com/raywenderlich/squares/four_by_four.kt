@@ -29,7 +29,7 @@ private lateinit var button4_16: Button
 private lateinit var score_4: TextView
 private var counter: Int = 0
 class four_by_four : AppCompatActivity() {
-   /* var field = arrayOf<Array<Int>>() //Массив значений
+    var field = arrayOf<Array<Int>>() //Массив значений
     val intervalButtons: Array<Button> by lazy { //массив кнопок
         arrayOf(
             findViewById<Button>(R.id.button4_1),
@@ -206,12 +206,12 @@ class four_by_four : AppCompatActivity() {
     }
 
     fun click_to3 (view: View){
-        /*val intent = Intent(this@four_by_four, MainActivity::class.java)
-        startActivity(intent)*/
+        val intent = Intent(this@four_by_four, MainActivity::class.java)
+        startActivity(intent)
         println(counter)
     }
 
     fun rand(from: Int, to: Int) : Int {
         return random.nextInt(to - from) + from
-    }*/
+    }
 }
