@@ -12,7 +12,7 @@ import android.widget.TextView
 import android.widget.Toast
 import java.util.Random
 //Объявление глобальных переменных
-
+/*
 private lateinit var button1: Button
 private lateinit var button2: Button
 private lateinit var button3: Button
@@ -21,7 +21,7 @@ private lateinit var button5: Button
 private lateinit var button6: Button
 private lateinit var button7: Button
 private lateinit var button8: Button
-private lateinit var button9: Button
+private lateinit var button9: Button*/
 private lateinit var score: TextView
 private var counter: Int = 0
 

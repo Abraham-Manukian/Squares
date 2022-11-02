@@ -10,7 +10,7 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import java.util.*
-
+/*
 private lateinit var button4_1: Button
 private lateinit var button4_2: Button
 private lateinit var button4_3: Button
@@ -25,7 +25,7 @@ private lateinit var button4_12: Button
 private lateinit var button4_13: Button
 private lateinit var button4_14: Button
 private lateinit var button4_15: Button
-private lateinit var button4_16: Button
+private lateinit var button4_16: Button*/
 private lateinit var score_4: TextView
 private var counter: Int = 0
 class four_by_four : AppCompatActivity() {
@@ -65,6 +65,8 @@ class four_by_four : AppCompatActivity() {
             }
             field += array
         }
+
+
     }
     fun chek(){
         var a = 0
@@ -75,7 +77,7 @@ class four_by_four : AppCompatActivity() {
 
         for (x in 0..3){
             for (y in 0..3){
-                a = a + field[x][y]
+                a +=  field[x][y]
             }
         }
         if (a == 0 || a == 16){
