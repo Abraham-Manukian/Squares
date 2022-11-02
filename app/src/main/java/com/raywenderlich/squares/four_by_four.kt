@@ -91,11 +91,11 @@ class four_by_four : AppCompatActivity() {
             for (n in 0..3){
                 if (field[i][n] == 1){
                     //button[i + n * 3].setBackgroundColor(Color.GREEN)
-                    intervalButtons[i + n * 3].setBackgroundColor(Color.GREEN)
+                    intervalButtons[i + n * 4].setBackgroundColor(Color.GREEN)
                 }
                 else{
                     //button[i + n * 3].setBackgroundColor(Color.RED)
-                    intervalButtons[i + n * 3].setBackgroundColor(Color.RED)  //setBackgroundResource(R.color.button)
+                    intervalButtons[i + n * 4].setBackgroundColor(Color.RED)  //setBackgroundResource(R.color.button)
                 }
             }
         }
